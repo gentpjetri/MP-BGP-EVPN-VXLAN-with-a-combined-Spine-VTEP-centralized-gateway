@@ -9,7 +9,7 @@ The main objective is to extend the same Layer-2 network between geographically 
 
 # Architecture
 <p align="center">
-  <img src="images/topology.png" width="900" alt="MP-BGP EVPN-VXLAN topology">
+  <img src="images/topology.jpeg" width="70%" alt="MP-BGP EVPN-VXLAN topology">
 </p>
 
 **IP Addressing info**
@@ -278,7 +278,7 @@ rent
 MAC of my Host2: 60:6D:3C:FC:45:67
 
 <p align="center">
-  <img src="images/pinghost1tv.jpeg" width="900" alt="pinghost1">
+  <img src="images/pinghost1tv.jpeg" width="20%" alt="pinghost1">
 </p>
 
 We can see that EVPN is used to learn remote MAC addresses by looking at MACIP routes.
@@ -333,6 +333,5 @@ Columns: ADDRESS, MAC-ADDRESS, INTERFACE, VRF, STATUS
 ```
 
 <p align="center">
-  <img src="images/resolvegoogle.jpeg" width="900" alt="resolvegoogle">
-  <img src="images/pinggoogle.jpeg" width="900" alt="pinggoogle">
+  <img src="images/resolvegoogle.jpeg" width="20%" alt="resolvegoogle"> <img src="images/pinggoogle.jpeg" width="20%" alt="pinggoogle">
 </p>
